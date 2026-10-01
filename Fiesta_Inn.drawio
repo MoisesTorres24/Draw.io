@@ -1,0 +1,379 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="er_fiesta_inn" name="Hotel_Fiesta_Inn">
+    <mxGraphModel dx="1893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E_Hotel" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Hotel" vertex="1">
+          <mxGeometry height="50" width="120" x="500" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="E_TipoHab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Tipo_habitacion" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Empleado" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Empleado" vertex="1">
+          <mxGeometry height="50" width="120" x="710" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Servicio" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Servicio" vertex="1">
+          <mxGeometry height="50" width="120" x="900" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Huesped" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Huesped" vertex="1">
+          <mxGeometry height="50" width="120" x="1400" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Reservacion" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Reservacion" vertex="1">
+          <mxGeometry height="50" width="120" x="1400" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Habitacion" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Habitacion" vertex="1">
+          <mxGeometry height="50" width="120" x="420" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Detalle" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Detalle_reservacion" vertex="1">
+          <mxGeometry height="50" width="140" x="1200" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Pago" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Pago" vertex="1">
+          <mxGeometry height="50" width="120" x="1860" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Cuenta" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="cuenta con (1:M)" vertex="1">
+          <mxGeometry height="60" width="140" x="310" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Clasifica" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="clasifica (1:M)" vertex="1">
+          <mxGeometry height="60" width="140" x="140" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Emplea" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="emplea (1:M)" vertex="1">
+          <mxGeometry height="60" width="120" x="685" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Ofrece" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ofrece (M:M)" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Realiza" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="realiza (1:M)" vertex="1">
+          <mxGeometry height="60" width="120" x="1400" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Atiende" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="atiende (1:M)" vertex="1">
+          <mxGeometry height="60" width="120" x="1030" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Incluye" parent="1" style="shape=rhombus;double=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="incluye (1:M)" vertex="1">
+          <mxGeometry height="70" width="160" x="1185" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Corresponde" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="corresponde (1:M)" vertex="1">
+          <mxGeometry height="60" width="150" x="420" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Consume" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="consume (M:M)" vertex="1">
+          <mxGeometry height="60" width="140" x="1150" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Paga" parent="1" style="shape=rhombus;double=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="se paga con (1:M)" vertex="1">
+          <mxGeometry height="60" width="170" x="1625" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="L_H_Cuenta" edge="1" parent="1" source="E_Hotel" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Cuenta">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Hab_Cuenta" edge="1" parent="1" source="R_Cuenta" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="E_Habitacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_TH_Clas" edge="1" parent="1" source="E_TipoHab" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Clasifica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Hab_Clas" edge="1" parent="1" source="R_Clasifica" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="E_Habitacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_H_Emp" edge="1" parent="1" source="E_Hotel" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Emplea">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Emp_Emp" edge="1" parent="1" source="R_Emplea" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="E_Empleado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_H_Ofrece" edge="1" parent="1" source="E_Hotel" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Ofrece">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_S_Ofrece" edge="1" parent="1" source="E_Servicio" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Ofrece">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Hue_Real" edge="1" parent="1" source="E_Huesped" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Realiza">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Res_Real" edge="1" parent="1" source="R_Realiza" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="E_Reservacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Emp_Ati" edge="1" parent="1" source="E_Empleado" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Atiende">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Res_Ati" edge="1" parent="1" source="R_Atiende" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="E_Reservacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Res_Inc" edge="1" parent="1" source="E_Reservacion" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R_Incluye">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Det_Inc" edge="1" parent="1" source="R_Incluye" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="E_Detalle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Hab_Corr" edge="1" parent="1" source="E_Habitacion" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Corresponde">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Det_Corr" edge="1" parent="1" source="R_Corresponde" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="E_Detalle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Res_Cons" edge="1" parent="1" source="E_Reservacion" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Consume">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Serv_Cons" edge="1" parent="1" source="E_Servicio" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Consume">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Res_Pago" edge="1" parent="1" source="E_Reservacion" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="R_Paga">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Pag_Pago" edge="1" parent="1" source="R_Paga" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="E_Pago">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_H1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;id_hotel&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_H2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="nombre" vertex="1">
+          <mxGeometry height="40" width="90" x="480" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="A_H3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="ciudad" vertex="1">
+          <mxGeometry height="40" width="90" x="580" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="A_H4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="direccion" vertex="1">
+          <mxGeometry height="40" width="90" x="680" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_H5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="telefono" vertex="1">
+          <mxGeometry height="40" width="90" x="530" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AH1" edge="1" parent="1" source="A_H1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Hotel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AH2" edge="1" parent="1" source="A_H2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Hotel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AH3" edge="1" parent="1" source="A_H3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Hotel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AH4" edge="1" parent="1" source="A_H4" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Hotel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AH5" edge="1" parent="1" source="A_H5" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Hotel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TH1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;id_tipo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TH2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="nombre" vertex="1">
+          <mxGeometry height="40" width="90" x="80" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TH3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="tipo_cama" vertex="1">
+          <mxGeometry height="40" width="90" x="240" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TH4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="capacidad_maxima" vertex="1">
+          <mxGeometry height="40" width="120" x="10" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TH5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="descripcion" vertex="1">
+          <mxGeometry height="40" width="90" x="40" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TH6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="tarifa_base" vertex="1">
+          <mxGeometry height="40" width="90" x="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ATH1" edge="1" parent="1" source="A_TH1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_TipoHab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ATH2" edge="1" parent="1" source="A_TH2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_TipoHab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ATH3" edge="1" parent="1" source="A_TH3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_TipoHab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ATH4" edge="1" parent="1" source="A_TH4" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_TipoHab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ATH5" edge="1" parent="1" source="A_TH5" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_TipoHab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ATH6" edge="1" parent="1" source="A_TH6" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_TipoHab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Hab1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;num_habitacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="200" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Hab2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="piso" vertex="1">
+          <mxGeometry height="40" width="80" x="275" y="628" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Hab3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="estado" vertex="1">
+          <mxGeometry height="40" width="80" x="350" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AHab1" edge="1" parent="1" source="A_Hab1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Habitacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AHab2" edge="1" parent="1" source="A_Hab2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Habitacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AHab3" edge="1" parent="1" source="A_Hab3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Habitacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Emp1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;id_empleado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="590" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Emp2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="nombre_completo" vertex="1">
+          <mxGeometry height="40" width="110" x="700" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Emp3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="telefono" vertex="1">
+          <mxGeometry height="40" width="90" x="820" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Emp4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="puesto" vertex="1">
+          <mxGeometry height="40" width="90" x="900" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AEmp1" edge="1" parent="1" source="A_Emp1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Empleado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AEmp2" edge="1" parent="1" source="A_Emp2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Empleado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AEmp3" edge="1" parent="1" source="A_Emp3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Empleado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AEmp4" edge="1" parent="1" source="A_Emp4" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Empleado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_S1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;id_servicio&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="830" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_S2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="nombre" vertex="1">
+          <mxGeometry height="40" width="90" x="930" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_S3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="descripcion" vertex="1">
+          <mxGeometry height="40" width="100" x="1030" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AS1" edge="1" parent="1" source="A_S1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Servicio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AS2" edge="1" parent="1" source="A_S2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Servicio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AS3" edge="1" parent="1" source="A_S3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Servicio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Hue1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;id_huesped&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="1310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Hue2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="nombre_completo" vertex="1">
+          <mxGeometry height="40" width="110" x="1420" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Hue3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="telefono" vertex="1">
+          <mxGeometry height="40" width="90" x="1540" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Hue4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="correo_electronico" vertex="1">
+          <mxGeometry height="40" width="110" x="1570" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AHue1" edge="1" parent="1" source="A_Hue1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Huesped">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AHue2" edge="1" parent="1" source="A_Hue2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Huesped">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AHue3" edge="1" parent="1" source="A_Hue3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Huesped">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AHue4" edge="1" parent="1" source="A_Hue4" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Huesped">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Res1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;id_reservacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="1640" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Res2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="fecha_reservacion" vertex="1">
+          <mxGeometry height="40" width="110" x="1685" y="681" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Res3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="fecha_entrada" vertex="1">
+          <mxGeometry height="40" width="90" x="1610" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Res4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="fecha_salida" vertex="1">
+          <mxGeometry height="40" width="90" x="1600" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Res5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="estado" vertex="1">
+          <mxGeometry height="40" width="90" x="1490" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Res6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" value="total" vertex="1">
+          <mxGeometry height="40" width="90" x="1410" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARes1" edge="1" parent="1" source="A_Res1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Reservacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARes2" edge="1" parent="1" source="A_Res2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Reservacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARes3" edge="1" parent="1" source="A_Res3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Reservacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARes4" edge="1" parent="1" source="A_Res4" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Reservacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARes5" edge="1" parent="1" source="A_Res5" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Reservacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARes6" edge="1" parent="1" source="A_Res6" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="E_Reservacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Det1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;num_linea&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="1060" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Det2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="precio_noche" vertex="1">
+          <mxGeometry height="40" width="90" x="1380" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Det3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="num_adultos" vertex="1">
+          <mxGeometry height="40" width="90" x="1100" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Det4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="num_ninos" vertex="1">
+          <mxGeometry height="40" width="90" x="1220" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ADet1" edge="1" parent="1" source="A_Det1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Detalle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ADet2" edge="1" parent="1" source="A_Det2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Detalle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ADet3" edge="1" parent="1" source="A_Det3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Detalle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ADet4" edge="1" parent="1" source="A_Det4" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Detalle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Pag1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;num_pago&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="2010" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Pag2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="fecha" vertex="1">
+          <mxGeometry height="40" width="90" x="2020" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Pag3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="monto" vertex="1">
+          <mxGeometry height="40" width="90" x="2020" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Pag4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="metodo_pago" vertex="1">
+          <mxGeometry height="40" width="100" x="1960" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="L_APag1" edge="1" parent="1" source="A_Pag1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Pago">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_APag2" edge="1" parent="1" source="A_Pag2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Pago">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_APag3" edge="1" parent="1" source="A_Pag3" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Pago">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_APag4" edge="1" parent="1" source="A_Pag4" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Pago">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_RS1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="precio" vertex="1">
+          <mxGeometry height="40" width="90" x="850" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARS1" edge="1" parent="1" source="A_RS1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="R_Ofrece">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_RCS1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="fecha_hora" vertex="1">
+          <mxGeometry height="40" width="100" x="1100" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="A_RCS2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="cantidad" vertex="1">
+          <mxGeometry height="40" width="90" x="1220" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARCS1" edge="1" parent="1" source="A_RCS1" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;dashed=1;" target="R_Consume">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ARCS2" edge="1" parent="1" source="A_RCS2" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;dashed=1;" target="R_Consume">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
