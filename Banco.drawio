@@ -16,9 +16,6 @@
         <mxCell id="E_Cliente" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cliente" vertex="1">
           <mxGeometry height="50" width="120" x="1000" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="CYk7K7XD9CPW1c1M_Tr0-12" edge="1" parent="1" source="E_Transaccion" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" target="CYk7K7XD9CPW1c1M_Tr0-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="E_Transaccion" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Transaccion" vertex="1">
           <mxGeometry height="50" width="120" x="1400" y="400" as="geometry" />
         </mxCell>
@@ -26,7 +23,7 @@
           <mxGeometry height="60" width="120" x="544" y="400" as="geometry" />
         </mxCell>
         <mxCell id="R_Crea" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="crea (1:M)" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="195" as="geometry" />
+          <mxGeometry height="60" width="120" x="740" y="210" as="geometry" />
         </mxCell>
         <mxCell id="R_Posee" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="posee (1:M)" vertex="1">
           <mxGeometry height="60" width="120" x="1000" y="400" as="geometry" />
@@ -170,6 +167,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L_AT5" edge="1" parent="1" source="A_T5" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="E_Transaccion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYk7K7XD9CPW1c1M_Tr0-12" edge="1" parent="1" source="E_Transaccion" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" target="CYk7K7XD9CPW1c1M_Tr0-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CYk7K7XD9CPW1c1M_Tr0-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;u&gt;cliente_id&lt;/u&gt;" vertex="1">
