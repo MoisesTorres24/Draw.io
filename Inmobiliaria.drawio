@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="er_inmobiliaria" name="Inmobiliaria">
-    <mxGraphModel dx="655" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,17 +13,18 @@
         <mxCell id="E_Empresa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Empresa" vertex="1">
           <mxGeometry height="50" width="120" x="1100" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="R_Formada" parent="1" style="shape=rhombus;double=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="formada por (1:M)" vertex="1">
-          <mxGeometry height="70" width="150" x="385" y="440" as="geometry" />
-        </mxCell>
         <mxCell id="R_Contrata" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="contrata (M:M)" vertex="1">
           <mxGeometry height="60" width="140" x="750" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="L_P_F" edge="1" parent="1" source="E_Promocion" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Formada">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="L_P_F" edge="1" parent="1" source="E_Promocion" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RrdFLNJNCJJpBoQ54Euy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="L_V_F" edge="1" parent="1" source="R_Formada" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="E_Vivienda">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="L_V_F" edge="1" parent="1" source="RrdFLNJNCJJpBoQ54Euy-1" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="E_Vivienda">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="510" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="L_P_C" edge="1" parent="1" source="E_Promocion" style="edgeStyle=none;endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="R_Contrata">
           <mxGeometry relative="1" as="geometry" />
@@ -192,6 +193,9 @@
         </mxCell>
         <mxCell id="L_AV11" edge="1" parent="1" source="A_V11" style="edgeStyle=none;endArrow=none;html=1;strokeWidth=1.5;" target="E_Vivienda">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RrdFLNJNCJJpBoQ54Euy-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="formada por (1:M)" vertex="1">
+          <mxGeometry height="60" width="140" x="390" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
